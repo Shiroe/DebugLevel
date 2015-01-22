@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 7e64133bff2532944ac056f2bb7fbe3b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: characterGeo
+    100002: head
+    100004: joint1
+    100006: l_ankle
+    100008: l_ball
+    100010: l_breast
+    100012: l_breastEnd
+    100014: l_clavicle
+    100016: l_elbow
+    100018: l_fingerBase
+    100020: l_fingerEnd
+    100022: l_fingerMid
+    100024: l_hip
+    100026: l_knee
+    100028: l_shoulder
+    100030: l_toe
+    100032: l_wrist
+    100034: neck
+    100036: pelvis
+    100038: ponytailBase
+    100040: ponytailEnd
+    100042: ponytailMid
+    100044: r_ankle
+    100046: r_ball
+    100048: r_breast
+    100050: r_breastEnd
+    100052: r_clavicle
+    100054: r_elbow
+    100056: r_fingerBase
+    100058: r_fingerEnd
+    100060: r_fingerMid
+    100062: r_hip
+    100064: r_knee
+    100066: r_shoulder
+    100068: r_toe
+    100070: r_wrist
+    100072: root
+    100074: //RootNode
+    100076: spineMid
+    400000: characterGeo
+    400002: head
+    400004: joint1
+    400006: l_ankle
+    400008: l_ball
+    400010: l_breast
+    400012: l_breastEnd
+    400014: l_clavicle
+    400016: l_elbow
+    400018: l_fingerBase
+    400020: l_fingerEnd
+    400022: l_fingerMid
+    400024: l_hip
+    400026: l_knee
+    400028: l_shoulder
+    400030: l_toe
+    400032: l_wrist
+    400034: neck
+    400036: pelvis
+    400038: ponytailBase
+    400040: ponytailEnd
+    400042: ponytailMid
+    400044: r_ankle
+    400046: r_ball
+    400048: r_breast
+    400050: r_breastEnd
+    400052: r_clavicle
+    400054: r_elbow
+    400056: r_fingerBase
+    400058: r_fingerEnd
+    400060: r_fingerMid
+    400062: r_hip
+    400064: r_knee
+    400066: r_shoulder
+    400068: r_toe
+    400070: r_wrist
+    400072: root
+    400074: //RootNode
+    400076: spineMid
+    4300000: characterGeo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: characterGeo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
