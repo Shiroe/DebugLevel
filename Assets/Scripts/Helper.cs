@@ -79,4 +79,16 @@ public static class Helper {
 			return cameraOptPos;
 	}
 
+	public static int Search(string name, string[] table, int length){
+		var count = -1;
+
+		for(int i = 0; i < length; i++){
+			if(table[i].Equals(name)){
+				count = i;
+				break;
+			}
+		}
+
+		return count;
+	}
 }

@@ -5,7 +5,7 @@ public class preLoad: MonoBehaviour {
 
 	public string toLoad;
 	bool isLoaded = false;
-	public Vector3 coords;
+	//public Vector3 coords;
 
 	void OnTriggerEnter(Collider x){
 
@@ -24,7 +24,7 @@ public class preLoad: MonoBehaviour {
 			GameObject scene = new GameObject();
 
 			scene = GameObject.Find(toLoad);
-			scene.transform.position = coords;
+			//scene.transform.position = coords;
 
 		}
 	}
