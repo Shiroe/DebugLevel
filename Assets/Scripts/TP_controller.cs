@@ -19,8 +19,9 @@ public class TP_controller : MonoBehaviour {
 
 	}
 
-	void Start () {
-
+	void OnGUI(){
+		GUI.Label(new Rect(10, 10, 100, 40), "Current scene: " + ProgressTrack.currentScene);
+		GUI.Label(new Rect(10, 50, 100, 40), "Previous scene: " + ProgressTrack.previousScene);
 	}
 	
 	// Update is called once per frame

@@ -4,28 +4,43 @@ using System.Collections;
 public class preLoad: MonoBehaviour {
 
 	public string toLoad;
-	bool isLoaded = false;
+	//bool isLoaded = false;
 	//public Vector3 coords;
 
 	void OnTriggerEnter(Collider x){
 
-		if(!isLoaded && x.gameObject.tag == "Player")
-			StartCoroutine(loading());
+		if( x.gameObject.tag == "Player"){
+			if(!GameObject.Find(toLoad))
+				StartCoroutine(loading());
+			else
+				ProgressTrack.checkUnload(toLoad, this);
+		}
+
 	}
 
 	IEnumerator loading(){
-		Debug.Log("xekinhse!");
 		AsyncOperation async = Application.LoadLevelAdditiveAsync(toLoad);
 		
 		yield return async;
 		
 		if(async.isDone){
-			isLoaded = true;
-			GameObject scene = new GameObject();
+			ProgressTrack.checkUnload(toLoad, this);
+			//isLoaded = true;
+			//GameObject scene = new GameObject();
 
-			scene = GameObject.Find(toLoad);
+			//scene = GameObject.Find(toLoad);
+
+
 			//scene.transform.position = coords;
 
 		}
 	}
+
+	public void UnloadScene(string scene){
+		Destroy(GameObject.Find(scene));
+		
+	}
+
+
+	
 }
