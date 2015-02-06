@@ -5,7 +5,6 @@ public class TP_controller : MonoBehaviour {
 
 	public static CharacterController CharacterController;
 	public static TP_controller Instance;
-	public string CurrentLevel = "gameStart";
 
 	// Use this for initialization
 	void Awake(){
@@ -19,6 +18,7 @@ public class TP_controller : MonoBehaviour {
 
 	}
 
+	//prints on screen the current scence etc
 	void OnGUI(){
 		GUI.Label(new Rect(10, 10, 100, 40), "Current scene: " + ProgressTrack.currentScene);
 		GUI.Label(new Rect(10, 50, 100, 40), "Previous scene: " + ProgressTrack.previousScene);

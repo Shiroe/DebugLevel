@@ -7,11 +7,12 @@ public static class ProgressTrack  {
 	public static string previousScene;
 
 	public static void checkUnload(string toLoad, preLoad x){
-		//Debug.Log(toLoad);
+		//if its a new scene
 		if(!toLoad.Equals(currentScene) && !toLoad.Equals(previousScene) ){
-			if(!currentScene.Equals(x.transform.parent.name)){
-				x.UnloadScene(currentScene);
+			if(!currentScene.Equals(x.transform.parent.name)){ //debug check on the way that the labels chage ie
+				x.UnloadScene(currentScene);					// step on a load platform and change direction 
 				currentScene = toLoad;
+
 			}
 			else{
 				x.UnloadScene(previousScene);
