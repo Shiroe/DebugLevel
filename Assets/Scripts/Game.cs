@@ -4,6 +4,7 @@ using System.Collections;
 public class Game : MonoBehaviour {
 	public static Game Control;
 	Vector3 spawnLoc;
+	bool Menu;
 	string CurrentLevel;
 
 	// Use this for initialization
