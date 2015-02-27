@@ -4,7 +4,6 @@ using System.Collections;
 public class Game : MonoBehaviour {
 	public static Game Control;
 	Vector3 spawnLoc;
-	bool Menu;
 	string CurrentLevel;
 
 	// Use this for initialization
@@ -30,20 +29,8 @@ public class Game : MonoBehaviour {
 		spawnLoc = isSpawned.Instance.getLoc();
 		CurrentLevel = ProgressTrack.currentScene;
 	}
-
+	
 	void Update(){
-		if(Input.GetButtonDown("Cancel")){
 
-			if(Time.timeScale == 1){
-				CaptureResumeData();
-				TP_Camera.Instance.enabled = false;
-				Time.timeScale = 0;
-			}
-			else{
-				Time.timeScale = 1;
-				TP_Camera.Instance.enabled = true;
-			}
-		}
 	}
-
 }

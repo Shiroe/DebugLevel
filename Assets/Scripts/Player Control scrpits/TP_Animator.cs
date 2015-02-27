@@ -15,8 +15,7 @@ public class TP_Animator : MonoBehaviour {
 	void Awake () {
 		Instance = this;
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 	
 	}
